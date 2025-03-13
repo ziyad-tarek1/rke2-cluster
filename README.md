@@ -18,6 +18,10 @@ A lightweight Kubernetes cluster setup using RKE2, automated with Vagrant for lo
 - 8GB+ RAM (4GB minimum)
 - 20GB+ free disk space
 - bash/zsh terminal
+- install the vagrant-rke2 plugin by running:
+  ```bash
+  vagrant plugin install vagrant-rke2
+  ```
 
 ## Quick Start
 
