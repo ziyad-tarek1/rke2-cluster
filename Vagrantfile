@@ -1,6 +1,7 @@
 Vagrant.require_version ">= 2.2.17"
 Vagrant.configure("2") do |config|
   config.vm.box = "generic/ubuntu2004"
+  config.vm.box_version = "4.3.12"
 
   # Shared variables
   server_ip = "192.168.56.101"
